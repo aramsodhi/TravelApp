@@ -1,0 +1,22 @@
+{
+  "name": "travelappfinal",
+  "version": "1.0.0",
+  "description": "An app that will help you plan your trips",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "nodemon server.js"
+  },
+  "author": "Aram Sodhi",
+  "license": "ISC",
+  "dependencies": {
+    "amadeus": "^7.1.0",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "socket.io": "^4.5.4"
+  }
+}

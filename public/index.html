@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Travel App</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+		<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+	<body>
+
+		<div class="raw-navbar">
+			<ul class="raw-navbar-links">
+				<li><a href="#home-section">Home</a></li>
+				<li><a href="#about-section">About</a></li>
+				<li><a href="#gallery-section">Gallery</a></li>
+				<li><a href="#form-section">Get Started</a></li>
+			</ul>
+		</div>
+
+		<section id="home-section" class="hero is-danger is-fullheight">
+		  <div class="hero-body">
+		    <div class="">
+		      <p class="title">
+		        Trip Monkey
+		      </p>
+		      <p class="subtitle">
+		        Plan your vacations easily
+		      </p>
+		    </div>
+		  </div>
+		</section>
+
+		<section id="about-section" class="section is-large">		  
+		  <div id="about-section-text">
+		  	<h1 class="title">About Us</h1>
+		  	<h2 class="subtitle"> At Trip Monkey, our goal is to make planning for trips as simple as possible. With our tools, you can organize an awesome vacation while barely lifting a finger.
+		  	</h2>
+		  </div>
+
+		  
+		  <div id="about-section-image"></div>	
+		</section>
+
+
+		<section id="gallery-section" class="section is-large">
+			<h1 id="gallery-title" class="title">Gallery:</h1>
+			<div id="gallery-container">
+				<div id="gallery-1"></div>
+				<div id="gallery-2"></div>
+				<div id="gallery-3"></div>
+				<div id="gallery-4"></div>
+				<div id="gallery-5"></div>
+				<div id="gallery-6"></div>
+			</div>
+		</section>
+
+
+		<section id="form-section" class="section is-large">
+		  <h1 class="title">Get Started Today</h1>
+		  <h2 class="subtitle">Click the button below to plan your next trip!</h2>
+		  <button id="form-page-btn">Get Started</button>
+		</section>
+
+		<footer id="footer-section">
+			<h1>This is a footer</h1>
+			<p>This is a paragraph in the footer</p>
+			<div class="footer-links">
+				<a href="https://www.facebook.com/"><img class="fb-img"src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-transparent-png.png"></a>
+				<a href="https://twitter.com/"><img class="tw-img"src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c53e.png"></a>
+				<a href="https://www.youtube.com/"><img class="yt-img"src="https://www.freeiconspng.com/thumbs/youtube-logo-png/hd-youtube-logo-png-transparent-background-20.png"></a>
+				<a href="https://www.linkedin.com/"><img class="li-img"src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG1.png"></a>
+				<a href="https://www.instagram.com/"><img class="ig-img"src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png"></a>
+			</div>
+		</footer>
+
+		<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>

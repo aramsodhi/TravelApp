@@ -1,0 +1,11 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0px;
+	padding: 20px;
+	font-family: "Montserrat", sans-serif;
+	background-color: #19191a;
+	color: white;
+}
